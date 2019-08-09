@@ -6,7 +6,7 @@ function HTTPGetData(urlStr) {
         if (HttpObj.readyState === 4) {
             ret = HttpObj.responseText;
             callBack(ret);
-            alert("data retrieved");
+         //   alert("data retrieved");
         }
     }
 	HttpObj.open("GET", urlStr, true);
